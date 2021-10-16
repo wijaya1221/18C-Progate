@@ -1,0 +1,150 @@
+@media all and (max-width:1000px) {
+    header .container {
+        padding: 0;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .search {
+        width: 250px;
+        height: 18;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    li {
+        font-size: smaller;
+    }
+
+
+
+    .transportation-wrapper {
+        margin: 50px 5%;
+    }
+
+    .selected {
+        margin-right: 10px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .transportation-list {
+        width: 70%;
+    }
+
+    .trasportation-image img {
+        float: none;
+        border-radius: 10px;
+        width: 80%;
+        margin: 5px 10%;
+    }
+
+    .transportation h4,
+    .trans-harga,
+    .star01,
+    .trans-desk {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .transportation .btn {
+        margin-right: 10%;
+        ;
+    }
+
+    .homestay-wrapper {
+        width: 80%;
+    }
+
+    .homestay {
+        width: 45%;
+    }
+}
+
+@media all and (max-width:670px) {
+    .selected {
+        float: none;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .category .btn {
+        padding: 6px;
+        display: inline-block;
+    }
+
+    .btn-category a,
+    .category .fa {
+        font-size: 12px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .transportation-list {
+        width: 100%;
+    }
+
+    .homestay {
+        width: 100%;
+    }
+
+    .homestay img {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+    }
+
+    .top-wrapper p {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: x-small;
+    }
+
+    .search{
+        display: none;
+    }
+
+    header .logo {
+        margin-left: 10px;
+        margin-right: 50%;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .nav .search{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li{
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    li .fa {
+        display: block;
+        margin-top: 10%;
+        margin-right: 50px;
+    }
+}
